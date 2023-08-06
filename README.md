@@ -1,5 +1,5 @@
 # PowerBI_report_employment
-
+<code>
 Date = ADDCOLUMNS (
 CALENDAR (DATE(2000,1,1), TODAY()),
 "DateAsInteger", FORMAT ( [Date], "YYYYMMDD" ),
@@ -14,4 +14,4 @@ CALENDAR (DATE(2000,1,1), TODAY()),
 "DayOfWeekShort", FORMAT ( [Date], "ddd" ),
 "Quarter", "Q" & FORMAT ( [Date], "Q" ),
 "YearQuarter", FORMAT ( [Date], "YYYY" ) & "/Q" & FORMAT ( [Date], "Q" )
-)
+)</code>
